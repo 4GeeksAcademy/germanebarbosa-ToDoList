@@ -1,19 +1,22 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-image: url("/workspaces/germanebarbosa-ToDoList/src/img/Fondo.jpg");
+
+}
+
 body{
-    margin-top: 100px;
-    background-image: url(/workspaces/germanebarbosa-ToDoList/src/img/Fondo.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-    background-attachment: scroll;
-    background-position: center center;
+    padding-top: 100px;
 }
 
 h1{
    font-family: 'Courier New', Courier, monospace
 }
-u{
+ul{
     margin: 0;
     padding: 0;
 }
+
 ul li{
     border: 1px solid gray;
     list-style: none;
@@ -28,8 +31,24 @@ input{
     outline: none;
 }
 
-i{
+.icon{
+    display: none;
     margin-top: 4px;
     margin-right: 25px;
     color: darkred;
+}
+
+.element:hover .icon{
+    display: inline-block;
+}
+
+.footer{
+    padding-left: 15px;
+    color: grey;
+    font-size:smaller;
+    border: none;
+}
+
+.icon:hover{
+    color: red;
 }
