@@ -1,12 +1,11 @@
 html, body{
     height: 100%;
     margin: 0;
-    background-image: url("/workspaces/germanebarbosa-ToDoList/src/img/Fondo.jpg");
-
 }
 
 body{
     padding-top: 100px;
+    background-color: aliceblue;
 }
 
 h1{
@@ -18,7 +17,7 @@ ul{
 }
 
 ul li{
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     list-style: none;
     padding: 5px;
     padding-left: 25px;
