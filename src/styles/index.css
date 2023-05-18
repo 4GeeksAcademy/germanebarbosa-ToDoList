@@ -28,6 +28,7 @@ input{
     border: none; 
     width: 100%;
     outline: none;
+    background-color: transparent;
 }
 
 .icon{
